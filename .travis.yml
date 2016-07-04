@@ -2,12 +2,12 @@ language: r
 sudo: false
 r_packages:
   - ggplot2
-  - devtools
   - dplyr
   - tidyr
   - leaflet
 
 r_github_packages:
+  - hadley/devtools
   - rstudio/bookdown
   - rstudio/shinydashboard
   
@@ -20,6 +20,6 @@ script:
   - ./_deploy.sh
 
 cache:
-  packages: yes
+  packages: false
   directories:
     - $TRAVIS_BUILD_DIR/_bookdown_files
