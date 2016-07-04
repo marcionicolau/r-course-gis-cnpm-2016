@@ -1,0 +1,9 @@
+# Interatividade
+
+Some _significant_ applications are demonstrated in this chapter.
+
+## Histórico
+
+## Shiny
+
+### Exemplos para GIS

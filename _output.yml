@@ -1,0 +1,17 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Intro R para GIS/2016</a></li>
+        <li><a href="mailto: marcio.nicolau@embrapa.br">Marcio Nicolau</a></li>
+      after: |
+        <li><a href="https://github.com/marcionicolau/r-course-gis-cnpm-2016" target="blank">Published with bookdown</a></li>
+    edit:
+      link:       https://github.com/marcionicolau/r-course-gis-cnpm-2016edit/master/%s
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+bookdown::epub_book: default
